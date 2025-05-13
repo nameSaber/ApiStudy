@@ -1,5 +1,7 @@
 ## 本项目是对于 https://vue.youlai.tech/#/dashboard 的接口文档所制作的，用于个人学习用途。
 
+## 技术栈 ： python + pytest + request + pymsql + yaml + allure
+
 ## allure 测试报告
 ### 执行命令
 ```python
