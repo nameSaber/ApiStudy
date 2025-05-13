@@ -19,4 +19,5 @@
 # allure open ./OutPuts/report/allure-report --host 192.168.0.104 --port 8800  # 打开报告
 ```
 
-## 2025-5-13 更新Auth模块
+## 更新日志
+### 2025-5-13 更新Auth模块
