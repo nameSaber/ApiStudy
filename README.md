@@ -2,6 +2,11 @@
 
 ## 技术栈 ： python + pytest + request + pymsql + yaml + allure
 
+## 安装环境
+```python
+# pip3 install -r requirements.txt
+```
+
 ## allure 测试报告
 ### 执行命令
 ```python
@@ -9,11 +14,8 @@
 
 # allure serve ./OutPuts/report/allure-report # 打开html的报告需要启动allure服务
 
-# --clean  # --clean 清除上一次的测试报告
 # allure generate ./OutPuts/report/result -o ./OutPuts/report/allure-report -c
-
 
 # allure open ./OutPuts/report/allure-report --host 192.168.0.104 --port 8800  # 打开报告
 ```
 
-## 本项目参考https://github.com/wintests/pytestDemo
