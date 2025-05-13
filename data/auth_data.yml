@@ -1,0 +1,22 @@
+test_auth_login_success:
+  # 用户名,密码,期望结果,期望返回码,期望返回信息
+  # username, password, except_result, except_code, except_msg
+  - ["admin", "123456", True, "00000", "一切ok"]
+
+test_auth_login_failure:
+  # 用户名,密码,期望结果,期望返回码,期望返回信息
+  # username, password, except_result, except_code, except_msg
+  - ["admin", "111111", False, "A0210", "用户名或密码错误" ]
+  - ["admin", "", False, "A0210", "用户名或密码错误" ]
+  - ["", "111111", False, "A0210", "用户名或密码错误" ]
+
+test_auth_captcha:
+  # 期望结果,期望返回码,期望返回信息
+  # except_result, except_code, except_msg
+  - [True, "00000", "一切ok"]
+
+
+test_auth_logout:
+  # 期望结果,期望返回码,期望返回信息
+  # except_result, except_code, except_msg
+  - [True, "00000", "一切ok"]
